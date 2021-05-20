@@ -1,4 +1,4 @@
 # StajProje-EvcilHayvan
- Evcil Hayvan Sitesi Projesi /  asp.net , access / non-responsive
+ Evcil Hayvan Sitesi Staj Projesi /  asp.net , access / non-responsive
  
  Oğuzhan Akpınar
