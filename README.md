@@ -1,3 +1,2 @@
 # StajProje-EvcilHayvan
- asp.net , access \n
- Evcil Hayvan Sitesi Projesi
+ Evcil Hayvan Sitesi Projesi /  asp.net , access / non-responsive
