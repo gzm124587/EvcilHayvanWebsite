@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminDefault.master.cs" Inherits="EvcilHayvanProje.AdminDefault" %>
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evcil Hayvan</title>
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/validation.js"></script>
+</head>
+
+<body class="size-1140">
+
+    <!-- HEADER -->
+    <header role="banner">
+        <!-- Top Bar -->
+        <div class="top-bar background-white">
+        </div>
+
+
+        <!-- Top Navigation -->
+        <nav class="background-white background-primary-hightlight">
+            <div class="line">
+                <div class="s-12 l-2">
+                    <a href="AdminHPage.aspx" class="logo">
+                        <img src="img/logo.png" alt=""></a>
+                </div>
+                <div class="top-nav s-12 l-10">
+                    <p class="nav-text"></p>
+                    <ul class="right chevron">
+                        <li><a href="AdminHPage.aspx">Anasayfa</a></li>
+                        <li><a href="Mesajlar.aspx">Mesajlar</a></li>
+                        <li><a>Yönetici</a>
+                            <ul>
+                                <li><a href="YoneticiEkle.aspx">Yönetici Ekle</a></li>
+                                <li><a href="YoneticiSil.aspx">Yönetici Sil</a></li></ul>
+                            </li>
+                        <li><a>Blog Yazıları</a>
+                            <ul>
+                                <li><a href="YaziEkle.aspx">Yazı Ekle</a></li>
+                                <li><a href="YaziSil.aspx">Yazı Sil</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Barınaklar</a>
+                            <ul>
+                                <li><a href="BarinakEkle.aspx">Barınak Ekle</a></li>
+                                <li><a href="BarinakSil.aspx">Barınak Sil</a></li>
+                            </ul></li>
+                        <li><a>Petshoplar</a>
+                            <ul>
+                                <li><a href="PetshopEkle.aspx">Petshop Ekle</a></li>
+                                <li><a href="PetshopSil.aspx">Petshop Sil</a></li>
+                            </ul></li>
+                        <li><a>Veterinerler</a>
+                            <ul>
+                                <li><a href="VeterinerEkle.aspx">Veteriner Ekle</a></li>
+                                <li><a href="VeterinerSil.aspx">Veteriner Sil</a></li>
+                            </ul></li>
+                        <li> 
+
+                        </li>
+                            </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main role="main">
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <hr class="break margin-top-bottom-0" style="border-color: rgba(0, 38, 51, 0.80);">
+
+        <!-- Bottom Footer -->
+        <section class="padding background-dark">
+            <div class="line">
+                <div class="s-12 l-6">
+            <p class="text-size-12">Copyright 2020, Evcil Hayvan <br />
+            <a href="Default.aspx" style="color:white">Kullanıcı Kısmı</a></p>
+          </div>
+                <div class="s-12 l-6">
+                    <a class="right text-size-12" title="Oğuzhan Akpınar">Tasarım düzenleme ve kodlama<br>
+                        Oğuzhan Akpınar</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script type="text/javascript" src="js/responsee.js"></script>
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script>
+</body>
+</html>
+

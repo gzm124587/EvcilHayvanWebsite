@@ -1,0 +1,181 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Template.master.cs" Inherits="EvcilHayvanProje.Template" %>
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evcil Hayvan</title>
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+    <script type="text/javascript" src="js/validation.js"></script> 
+  </head>  
+  
+  <body class="size-1140">
+  	
+    <!-- HEADER -->
+    <header role="banner">    
+      <!-- Top Bar -->
+      <div class="top-bar background-white">
+        </div>
+      
+      
+      <!-- Top Navigation -->
+      <nav class="background-white background-primary-hightlight">
+        <div class="line">
+          <div class="s-12 l-2">
+            <a href="Default.aspx" class="logo"><img src="img/logo.png" alt=""></a>
+          </div>
+          <div class="top-nav s-12 l-10">
+            <p class="nav-text"></p>
+            <ul class="right chevron">
+              <li><a href="Default.aspx">Anasayfa</a></li>
+              <li><a href="Yazilar.aspx">Blog Yazıları</a></li>
+              <li><a href="Barinaklar.aspx">Barınaklar</a></li>
+              <li><a href="Petshoplar.aspx">Petshoplar</a></li>
+              <li><a href="Veterinerler.aspx">Veterinerler</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <!-- MAIN -->
+    <main role="main">
+        
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+      <!-- Social -->
+      <div class="background-primary padding text-center">
+        <a href="https://www.facebook.com/" target="_blank"><i class="icon-facebook_circle icon2x text-white"></i></a> 
+        <a href="https://www.twitter.com/" target="_blank"><i class="icon-twitter_circle icon2x text-white"></i></a>
+        <a href="https://www.instagram.com/oguz.hanakpinar" target="_blank"><i class="icon-instagram_circle icon2x text-white"></i></a>                                                                        
+      </div>
+      
+      <!-- Main Footer -->
+      <section class="section background-dark">
+        <div class="line">
+          <div class="margin">
+            <!-- Collumn 1 -->
+            <div class="s-12 m-12 l-4 margin-m-bottom-2x">
+              <h4 class="text-uppercase text-strong">Amacımız</h4>
+              <p class="text-size-20"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Suspendisse feugiat malesuada erat. Aenean feugiat tortor vitae consequat malesuada. 
+                  Sed fermentum mattis ligula ac interdum. Nullam gravida eros fringilla, lacinia justo eu, accumsan tellus. 
+                  Pellentesque non mattis est. Aenean tristique dapibus nisi et congue. In aliquet at sem ultricies condimentum. 
+                  Donec commodo mauris at ex posuere, ac vestibulum ligula egestas. Curabitur vitae metus vel leo commodo ultrices ut a nulla. 
+                  Integer massa tortor, efficitur sed nulla quis, lobortis vulputate tellus. 
+                                      </em><p>
+            </div>
+            
+            <!-- Collumn 2 -->
+            <div class="s-12 m-12 l-4 margin-m-bottom-2x">
+              <h4 class="text-uppercase text-strong">İLETİŞİM</h4>
+              <div class="line">
+                <div class="s-1 m-1 l-1 text-center">
+                  <i class="icon-placepin text-primary text-size-12"></i>
+                </div>
+                <div class="s-11 m-11 l-11 margin-bottom-10">
+                  <p><b>Adres:</b> Beylikdüzü,İstanbul,TR</p>
+                </div>
+              </div>
+              <div class="line">
+                <div class="s-1 m-1 l-1 text-center">
+                  <i class="icon-mail text-primary text-size-12"></i>
+                </div>
+                <div class="s-11 m-11 l-11 margin-bottom-10">
+                  <p><a class="text-primary-hover" href="mailto:oguzhanakpinar@yahoo.com"><b>E-mail:</b> oguzhanakpinar@yahoo.com</a></p>
+                </div>
+              </div>
+              <div class="line">
+                <div class="s-1 m-1 l-1 text-center">
+                  <i class="icon-smartphone text-primary text-size-12"></i>
+                </div>
+                <div class="s-11 m-11 l-11 margin-bottom-10">
+                  <p><b>Telefon:</b> 0544 796 1953</p>
+                </div>
+              </div>
+
+              <div class="line">
+                <div class="s-1 m-1 l-1 text-center">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96374.63275479017!2d28.576593133846714!3d40.98789030488987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b55fc19deb0b3b%3A0xdf4ea093f30983c6!2zQmV5bGlrZMO8esO8L8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1595859512437!5m2!1str!2str" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="s-11 m-11 l-11 margin-bottom-10">
+                 
+                </div>
+              </div>
+              <div class="line">
+                <div class="s-1 m-1 l-1 text-center">
+                  
+                </div>
+                <div class="s-11 m-11 l-11">
+                  
+                </div>
+              </div>
+            </div>
+            
+            <!-- Collumn 3 -->
+             <div class="s-12 m-12 l-4">
+              <h4 class="text-uppercase text-strong">MESAJ</h4>
+                 
+                 <form id="Form1" method="post" runat="server" class="customform text-white">
+                <div class="line">
+                  <div class="margin">
+                    <div class="s-12 m-12 l-6">
+                        <asp:TextBox ID="TextBox_Email" runat="server" class="required email border-radius" placeholder="E-mail adresiniz" title="E-mail adresiniz"></asp:TextBox>
+                    </div>
+                    <div class="s-12 m-12 l-6">
+                        <asp:TextBox ID="TextBox_Name" runat="server" class="name border-radius" placeholder="İsminiz" title="İsminiz"></asp:TextBox>   
+                    </div>
+                      
+                  </div>
+                </div>
+                <div class="s-12">
+                    <asp:TextBox ID="TextBox_Message" runat="server" class="required message border-radius" placeholder="Mesajınız" rows="5" TextMode="MultiLine"></asp:TextBox>
+                </div>
+                <div class="s-12">
+                    <asp:Button ID="Button_Send" runat="server" Text="MESAJ GÖNDER" class="submit-form button background-primary border-radius text-white" OnClick="Button_Send_Click" />
+                </div> 
+                      <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox_Email" ErrorMessage="*Email Hatalı" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Font-Size="Medium" SetFocusOnError="True"></asp:RegularExpressionValidator>
+              </form> 
+
+                
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="break margin-top-bottom-0" style="border-color: rgba(0, 38, 51, 0.80);">
+      
+      <!-- Bottom Footer -->
+      <section class="padding background-dark">
+        <div class="line">
+          <div class="s-12 l-6">
+            <p class="text-size-12">Copyright 2020, Evcil Hayvan <br />
+            <a href="Login.aspx" style="color:white">Admin Girişi</a></p>
+          </div>
+          <div class="s-12 l-6">
+            <a class="right text-size-12"  title="Oğuzhan Akpınar">Tasarım düzenleme ve kodlama<br> Oğuzhan Akpınar</a>
+          </div>
+            
+        </div>
+      </section>
+    </footer> 
+    <script type="text/javascript" src="js/responsee.js"></script>
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script>   
+   </body>
+</html>
+
