@@ -13,7 +13,7 @@ namespace EvcilHayvanProje
         OleDbConnection objConn = new OleDbConnection("Provider=Microsoft.Ace.OleDb.12.0;Data Source=" + HttpContext.Current.Server.MapPath("/App_Data/EvcilHayvan.accdb"));
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            // Oğuzhan Akpınar
         }
 
         protected void Button_Send_Click(object sender, EventArgs e)
